@@ -1,0 +1,125 @@
+select * from call_center            order by cc_call_center_id desc limit 100;
+select * from catalog_page           order by cp_catalog_page_id desc limit 100;
+select * from catalog_returns        order by cr_returned_date_sk desc limit 100;
+select * from catalog_sales          order by cs_sold_date_sk desc limit 100;
+select * from customer_address       order by ca_address_id desc limit 100;
+select * from customer_demographics  order by cd_demo_sk desc limit 100;
+select * from customer               order by c_customer_id desc limit 100;
+select * from date_dim               order by d_date_id desc limit 100;
+select * from household_demographics order by hd_demo_sk desc limit 100;
+select * from income_band            order by ib_income_band_sk desc limit 100;
+select * from inventory              order by inv_item_sk desc limit 100;
+select * from item                   order by i_item_id desc limit 100;
+select * from promotion              order by p_promo_id desc limit 100;
+select * from reason                 order by r_reason_id desc limit 100;
+select * from ship_mode              order by sm_ship_mode_id desc limit 100;
+select * from store_returns          order by sr_returned_date_sk desc limit 100;
+select * from store_sales            order by ss_sold_date_sk desc limit 100;
+select * from store                  order by s_store_id desc limit 100;
+select * from time_dim               order by t_time_id desc limit 100;
+select * from warehouse              order by w_warehouse_id desc limit 100;
+select * from web_page               order by wp_web_page_id desc limit 100;
+select * from web_returns            order by wr_returned_date_sk desc limit 100;
+select * from web_sales              order by ws_sold_date_sk desc limit 100;
+select * from web_site               order by web_site_id desc limit 100;
+[01/07/2025 16:48:51.634] Run benchmark sql from /disk/nvme0n1/jasong/tpcds/sql/standard
+[01/07/2025 16:48:53.667] [Query1]duration: 1940ms, status: 0
+[01/07/2025 16:48:55.538] [Query2]duration: 1782ms, status: 0
+[01/07/2025 16:48:57.362] [Query3]duration: 1724ms, status: 0
+[01/07/2025 16:49:40.435] [Query4]duration: 42975ms, status: 0
+[01/07/2025 16:49:44.104] [Query5]duration: 3582ms, status: 0
+[01/07/2025 16:49:45.613] [Query6]duration: 1418ms, status: 0
+[01/07/2025 16:49:48.462] [Query7]duration: 2761ms, status: 0
+[01/07/2025 16:49:50.111] [Query8]duration: 1552ms, status: 0
+[01/07/2025 16:50:00.083] [Query9]duration: 9885ms, status: 0
+[01/07/2025 16:50:01.549] [Query10]duration: 1379ms, status: 0
+[01/07/2025 16:50:27.996] [Query11]duration: 26349ms, status: 0
+[01/07/2025 16:50:28.610] [Query12]duration: 528ms, status: 0
+[01/07/2025 16:50:37.223] [Query13]duration: 8522ms, status: 0
+[01/07/2025 16:50:57.570] [Query14]duration: 9897ms, status: 0
+[01/07/2025 16:50:58.599] [Query15]duration: 931ms, status: 0
+[01/07/2025 16:52:18.736] [Query16]duration: 80049ms, status: 0
+[01/07/2025 16:52:24.085] [Query17]duration: 5263ms, status: 0
+[01/07/2025 16:52:26.016] [Query18]duration: 1837ms, status: 0
+[01/07/2025 16:52:28.058] [Query19]duration: 1951ms, status: 0
+[01/07/2025 16:52:28.650] [Query20]duration: 505ms, status: 0
+[01/07/2025 16:52:29.219] [Query21]duration: 480ms, status: 0
+[01/07/2025 16:52:30.381] [Query22]duration: 1077ms, status: 0
+[01/07/2025 16:52:59.807] [Query23]duration: 29339ms, status: 0
+[01/07/2025 16:53:07.017] [Query24]duration: 3588ms, status: 0
+[01/07/2025 16:53:11.615] [Query25]duration: 4507ms, status: 0
+[01/07/2025 16:53:12.821] [Query26]duration: 1120ms, status: 0
+[01/07/2025 16:53:15.734] [Query27]duration: 2813ms, status: 0
+[01/07/2025 16:53:23.442] [Query28]duration: 7613ms, status: 0
+[01/07/2025 16:53:29.942] [Query29]duration: 6413ms, status: 0
+[01/07/2025 16:53:30.947] [Query30]duration: 919ms, status: 0
+[01/07/2025 16:53:35.212] [Query31]duration: 4174ms, status: 0
+[01/07/2025 16:53:35.600] [Query32]duration: 299ms, status: 0
+[01/07/2025 16:53:37.927] [Query33]duration: 2232ms, status: 0
+[01/07/2025 16:53:40.415] [Query34]duration: 2402ms, status: 0
+[01/07/2025 16:53:43.346] [Query35]duration: 2840ms, status: 0
+[01/07/2025 16:53:45.011] [Query36]duration: 1575ms, status: 0
+[01/07/2025 16:53:45.473] [Query37]duration: 373ms, status: 0
+[01/07/2025 16:53:55.314] [Query38]duration: 9747ms, status: 0
+[01/07/2025 16:53:56.409] [Query39]duration: 503ms, status: 0
+[01/07/2025 16:53:57.642] [Query40]duration: 1143ms, status: 0
+[01/07/2025 16:53:58.045] [Query41]duration: 300ms, status: 0
+[01/07/2025 16:53:59.027] [Query42]duration: 896ms, status: 0
+[01/07/2025 16:54:01.298] [Query43]duration: 2184ms, status: 0
+[01/07/2025 16:54:03.181] [Query44]duration: 1789ms, status: 0
+[01/07/2025 16:54:04.263] [Query45]duration: 995ms, status: 0
+[01/07/2025 16:54:07.848] [Query46]duration: 3500ms, status: 0
+[01/07/2025 16:54:13.371] [Query47]duration: 5429ms, status: 0
+[01/07/2025 16:54:20.892] [Query48]duration: 7433ms, status: 0
+[01/07/2025 16:54:23.745] [Query49]duration: 2750ms, status: 0
+[01/07/2025 16:54:26.186] [Query50]duration: 2347ms, status: 0
+[01/07/2025 16:54:40.204] [Query51]duration: 13931ms, status: 0
+[01/07/2025 16:54:41.196] [Query52]duration: 906ms, status: 0
+[01/07/2025 16:54:45.474] [Query53]duration: 4189ms, status: 0
+[01/07/2025 16:54:47.790] [Query54]duration: 2227ms, status: 0
+[01/07/2025 16:54:48.794] [Query55]duration: 914ms, status: 0
+[01/07/2025 16:54:50.824] [Query56]duration: 1942ms, status: 0
+[01/07/2025 16:55:28.875] [Query57]duration: 37964ms, status: 241
+[01/07/2025 16:55:33.121] [Query58]duration: 4153ms, status: 0
+[01/07/2025 16:55:39.256] [Query59]duration: 6036ms, status: 0
+[01/07/2025 16:55:42.319] [Query60]duration: 2974ms, status: 0
+[01/07/2025 16:55:47.315] [Query61]duration: 4902ms, status: 0
+[01/07/2025 16:55:48.509] [Query62]duration: 1107ms, status: 0
+[01/07/2025 16:55:52.774] [Query63]duration: 4171ms, status: 0
+[01/07/2025 16:55:59.164] [Query64]duration: 6301ms, status: 0
+[01/07/2025 16:56:06.760] [Query65]duration: 7508ms, status: 0
+[01/07/2025 16:56:08.683] [Query66]duration: 1830ms, status: 0
+[01/07/2025 16:56:27.972] [Query67]duration: 19193ms, status: 0
+[01/07/2025 16:56:32.121] [Query68]duration: 4061ms, status: 0
+[01/07/2025 16:56:34.362] [Query69]duration: 2153ms, status: 0
+[01/07/2025 16:56:37.761] [Query70]duration: 3312ms, status: 0
+[01/07/2025 16:56:39.838] [Query71]duration: 1979ms, status: 0
+[01/07/2025 16:58:06.138] [Query72]duration: 86208ms, status: 0
+[01/07/2025 16:58:08.707] [Query73]duration: 2481ms, status: 0
+[01/07/2025 16:58:24.487] [Query74]duration: 15691ms, status: 0
+[01/07/2025 16:59:11.619] [Query75]duration: 47042ms, status: 0
+[01/07/2025 16:59:14.421] [Query76]duration: 2716ms, status: 0
+[01/07/2025 16:59:16.788] [Query77]duration: 2268ms, status: 0
+[01/07/2025 17:00:05.771] [Query78]duration: 48889ms, status: 0
+[01/07/2025 17:00:10.392] [Query79]duration: 4528ms, status: 0
+[01/07/2025 17:00:16.217] [Query80]duration: 5733ms, status: 0
+[01/07/2025 17:00:17.564] [Query81]duration: 1258ms, status: 0
+[01/07/2025 17:00:18.277] [Query82]duration: 613ms, status: 0
+[01/07/2025 17:00:19.255] [Query83]duration: 888ms, status: 0
+[01/07/2025 17:00:20.122] [Query84]duration: 764ms, status: 0
+[01/07/2025 17:00:24.908] [Query85]duration: 4698ms, status: 0
+[01/07/2025 17:00:25.643] [Query86]duration: 647ms, status: 0
+[01/07/2025 17:00:35.720] [Query87]duration: 9986ms, status: 0
+[01/07/2025 17:00:38.214] [Query88]duration: 2402ms, status: 0
+[01/07/2025 17:00:41.801] [Query89]duration: 3499ms, status: 0
+[01/07/2025 17:00:42.422] [Query90]duration: 523ms, status: 0
+[01/07/2025 17:00:51.428] [Query91]duration: 8917ms, status: 0
+[01/07/2025 17:00:52.044] [Query92]duration: 530ms, status: 0
+[01/07/2025 17:00:54.781] [Query93]duration: 2641ms, status: 0
+[01/07/2025 17:00:56.098] [Query94]duration: 1231ms, status: 0
+[01/07/2025 17:00:57.476] [Query95]duration: 1293ms, status: 0
+[01/07/2025 17:00:58.974] [Query96]duration: 1407ms, status: 0
+[01/07/2025 17:01:32.981] [Query97]duration: 33920ms, status: 0
+[01/07/2025 17:01:34.503] [Query98]duration: 1435ms, status: 0
+[01/07/2025 17:04:35.035] [Query99]duration: 180442ms, status: 159
+[01/07/2025 17:04:35.037] total duration: 920013ms
